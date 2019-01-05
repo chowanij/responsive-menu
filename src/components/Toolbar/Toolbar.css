@@ -15,6 +15,10 @@
     align-items: center;
 }
 
+.toolbar__logo {
+    margin-left: 1rem;
+}
+
 .toolbar__logo a {
     color: white;
     text-decoration: none;
