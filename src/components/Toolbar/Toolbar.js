@@ -6,6 +6,7 @@ const toolbar = props => (
         <nav className="toolbar__navigation">
             <div></div>
             <div className="toolbar__logo"><a href="/">LOGO</a></div>
+            <div className="toolbar__spacer"/>
             <div className="toolbar__navigation-items">
                 <ul>
                     <li><a href="/" >Products</a></li>
