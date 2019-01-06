@@ -49,3 +49,21 @@
 .toolbar__navigation-items a:active {
     color: #807f7f;
 }
+
+@media (max-width: 768px) {
+    .toolbar__navigation-items {
+        display: none;
+    }
+}
+
+@media (min-widh: 769px) {
+    .toolbar__toggle-button {
+        display: none;
+    }
+
+    .toolbar__logo {
+        margin-left: 0;
+    }
+}
+
+
